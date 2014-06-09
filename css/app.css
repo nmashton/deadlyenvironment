@@ -1,0 +1,187 @@
+/*
+Shared formatting.
+body, svg, text {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+*/
+
+.caption {
+  text-align: center;
+  background: none;
+  font-family: "klavika-web-condensed";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #696969;
+}
+
+
+/*
+  Bookend formatting.
+*/
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  stroke: grey;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+  stroke-width: 1px;
+}
+
+a {
+	color: #e61719;
+  text-decoration: none;
+}
+
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#panel-4 {
+  height: 400px;
+  width: 900px;
+  display: table-cell;
+  vertical-align: middle;
+  horizontal-align: middle;
+}
+
+.issuuembed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.finale {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em;
+  font-size: 36px;
+  font-family: "klavika-web-condensed";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-transform: uppercase;
+
+}
+
+
+/*
+Histogram formatting.
+*/
+
+.label {
+  font-size: 14px;
+  color: #888888;
+}
+
+.axis text {
+  font-size: 10px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.domain {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.box {
+  fill: grey;
+}
+
+.box:hover {
+  fill: #e61719 !important;
+}
+
+.bar {
+  text-anchor: middle;
+}
+
+
+/*
+Map formatting.
+*/
+
+.mapdate {
+  font-size: 48px;
+  font-family: "klavika-web-condensed";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  fill: white;
+  stroke: grey;
+  stroke-width: 2px;
+}
+
+.land {
+  fill: #fff;
+  stroke: grey;
+}
+
+.colorkey {
+  font-size: 10px;
+}
+
+/*
+Rows formatting.
+*/
+.bar-label {
+  font-size: 14px;
+  color: #888888;
+}
+
+.bar-caption {
+  font-size: 18px;
+  color: #696969;
+  font-family: "klavika-web-condensed";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-transform: uppercase;
+}
+
+/*
+Owl navigation customization.
+
+THIS EXPERIMENT FAILED, so hiding it...
+
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0px;
+  top: 40%;
+  height: 15%;
+  width: 3%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  display: table;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0px;
+  top: 40%;
+  height: 15%;
+  width: 3%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: table;
+}
+
+.owl-buttons p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+*/
